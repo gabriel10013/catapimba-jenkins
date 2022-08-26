@@ -53,7 +53,7 @@ module "jenkins_ec2_instance" {
   user_data              = file("./dependencias.sh")
 
   tags = {
-    Terraform = "true"
+    Terraform = "tru1"
   }
 }
 
